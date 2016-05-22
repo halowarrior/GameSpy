@@ -18,6 +18,8 @@ devsupport@gamespy.com
 extern "C" {
 #endif
 
+int gti2VerifyChallenge(const GT2Byte *buffer);
+
 GT2Byte * gti2GetChallenge
 (
 	GT2Byte * buffer

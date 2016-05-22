@@ -16,7 +16,7 @@ devsupport@gamespy.com
 
 char GT2ChallengeKey[33] = "3b8dd8995f7c40a9a5c5b7dd5b481341";
 
-static int gti2VerifyChallenge(const GT2Byte *buffer)
+int gti2VerifyChallenge(const GT2Byte *buffer)
 {
 	int oddmode = 0;
 	int i;
