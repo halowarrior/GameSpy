@@ -15,6 +15,8 @@ devsupport@gamespy.com
 #define CALCULATEODDMODE(buffer, i, oddmode) ((buffer[i-1] & 1) ^ (i & 1) ^ oddmode ^ (buffer[0] & 1) ^ ((buffer[0] < 79) ? 1 : 0) ^ ((buffer[i-1] < buffer[0]) ? 1 : 0));
 
 char GT2ChallengeKey[33] = "3b8dd8995f7c40a9a5c5b7dd5b481341";
+// Halo Challenge Key
+// char GT2ChallengeKey[33] = ")nTu4y&t,Cr{P5j{6k<]^E@-ToF#Kg>m";
 
 int gti2VerifyChallenge(const GT2Byte *buffer)
 {
